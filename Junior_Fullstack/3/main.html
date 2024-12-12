@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar and Carousel Example</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar sticky-top">
+        <div class="logo">BERNASI</div>
+        <ul class="nav-links"> 
+            <li><a href="#">Home</a></li> 
+            <li><a href="#menu-section">Menu</a></li>
+            <li><a href="#footer-section">Kontak</a></li>
+        </ul>
+    </nav>
+  <!-- Carousel Section -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slide1.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="slide2.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="slide3.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- BERNASI History Section -->
+  <section class="history-section">
+    <div class="container">
+      <h2>BERNASI HISTORY</h2>
+      <p>
+        BERNASI berawal dari ide sederhana untuk membawa cita rasa tradisional Indonesia dalam bentuk yang praktis dan inovatif. 
+        Misi kami adalah untuk membuat masakan Indonesia yang autentik mudah diakses dan dinikmati oleh siapa saja, di mana saja.
+        Sejak dimulai dari usaha kecil, BERNASI kini telah berkembang menjadi merek yang dicintai oleh masyarakat lokal maupun wisatawan. 
+        Kami berkomitmen untuk melestarikan warisan kuliner Indonesia yang kaya, sambil menyesuaikannya dengan kebutuhan masa kini.
+      </p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menu-section">
+    >
+    <div class="container">
+      <h2 class="menu-title">MENU BERNASI</h2>
+      <div class="row">
+        <div class="col-md-3 card-item">
+          <div class="card">
+            <img src="menu.jpg" class="card-img-top" alt="Bernasi Rendang">
+            <div class="card-body">
+              <h5 class="card-title">Bernasi Rendang</h5>
+              <p class="card-price">Rp 35.000</p>
+              <p class="card-text">Rendang dengan bumbu yang kaya, pedas, dan gurih, menyatu sempurna dengan nasi yang harum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 card-item">
+          <div class="card">
+            <img src="slide3.jpg" class="card-img-top" alt="Bernasi Woku">
+            <div class="card-body">
+              <h5 class="card-title">Bernasi Woku</h5>
+              <p class="card-price">Rp 30.000</p>
+              <p class="card-text">Woku dengan cita rasa pedas segar, dibumbui dengan rempah khas Manado yang menggugah selera.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 card-item">
+          <div class="card">
+            <img src="slide2.jpg" class="card-img-top" alt="Bernasi Kari">
+            <div class="card-body">
+              <h5 class="card-title">Bernasi Kari</h5>
+              <p class="card-price">Rp 32.000</p>
+              <p class="card-text">Kari ayam yang kaya akan rempah, dengan rasa pedas manis yang sempurna dengan nasi hangat .</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 card-item">
+            <div class="card">
+              <img src="slide1.jpg" class="card-img-top" alt="Bernasi Kari">
+              <div class="card-body">
+                <h5 class="card-title">Bernasi Pindang</h5>
+                <p class="card-price">Rp 32.000</p>
+                <p class="card-text">Pindang Ikan yang asam gurih,memberikan sensasi seafood segar yang bisa dimakan dimana saja.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- location section -->
+  <section class="location-section">
+    <div class="container text-center">
+      <h2 style="color: white;">Kunjungi Bernasi</h2>
+      <p style="color: white;">Temukan kami di lokasi berikut dan nikmati Nasi Gigit.</p>
+      <a href="https://g.co/kgs/D16M775" target="_blank" class="btn btn-light">Lihat di Maps</a>
+    </div>
+  </section>
+
+  
+
+<!-- Feature Section -->
+<section class="features-section">
+  <div class="container">
+    <div class="feature-grid">
+      <div class="feature-item">
+        <i class="fas fa-truck"></i>
+        <h3>Pengiriman Cepat</h3>
+        <p>Dikirim langsung ke lokasi Anda</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-medal"></i>
+        <h3>Kualitas Terjamin</h3>
+        <p>Bahan segar berkualitas</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-clock"></i>
+        <h3>Siap Saji</h3>
+        <p>Langsung dapat dinikmati</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- App Download Section -->
+<section class="app-section">
+  <div class="container">
+    <div class="app-content">
+      <div class="app-text">
+        <h2>Download Aplikasi BERNASI</h2>
+        <p>Pesan lebih mudah dan dapatkan reward points!</p>
+        <div class="app-buttons">
+          <a href="https://play.google.com" class="app-btn">
+            <i class="fab fa-google-play"></i>
+            Google Play
+          </a>
+          <a href="#" class="app-btn">
+            <i class="fab fa-apple"></i>
+            App Store
+          </a>
+        </div>
+      </div>
+      <div class="app-image">
+        <img src="slide1.jpg" alt="BERNASI App">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimony Section -->
+<section class="testimony-section">
+  <div class="container">
+    <h2>Apa Kata Mereka?</h2>
+    <div class="testimony-slider">
+      <div class="testimony-card">
+        <div class="testimony-content">
+          <i class="fas fa-quote-left"></i>
+          <p>"Nasi dan lauknya enak sekali, pengirimannya juga cepat!"</p>
+          <div class="testimony-author">
+            <img src="slide1.jpg" alt="User 1">
+            <div class="author-info">
+              <h4>John Doe</h4>
+              <span>Food Blogger</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tambahkan testimony card lainnya -->
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-content">
+      <h2>Berlangganan Newsletter</h2>
+      <p>Dapatkan info promo dan menu terbaru</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Masukkan email Anda">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Order Form Section -->
+<section class="order-section">
+  <div class="container">
+      <h2>Pesan Sekarang</h2>
+      <form id="order-form" class="order-form">
+        <div class="form-group">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="menu">Menu:</label>
+            <select id="menu" name="menu" required>
+                <option value="Bernasi Rendang">Bernasi Rendang</option>
+                <option value="Bernasi Woku">Bernasi Woku</option>
+                <option value="Bernasi Kari">Bernasi Kari</option>
+                <option value="Bernasi Pindang">Bernasi Pindang</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="quantity">Jumlah:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </div>
+        <button type="submit" class="submit-btn">Pesan</button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="footer-section">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Tentang Kami</h3>
+        <p>BERNASI adalah restoran yang menghadirkan pengalaman kuliner nasi khas Indonesia dengan sentuhan modern. Kami berkomitmen menggunakan bahan-bahan berkualitas terbaik untuk menciptakan hidangan yang lezat dan mengesankan.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Kontak</h3>
+        <div class="contact-info">
+          <p>Email: hans@bernasi.com</p>
+          <p>Phone: (021) 1234-5678</p>
+          <p>Alamat: Jl. Cengkareng No. 123, Jakarta</p>
+          <p>Jam Buka: Senin - Minggu</p>
+          <p>10:00 - 22:00 WIB</p>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Ikuti Kami</h3>
+        <p>Dapatkan update terbaru tentang menu dan promo spesial kami di media sosial:</p>
+        <div class="social-links">
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2024 BERNASI. Memberikan yang terbaik untuk pecinta kuliner Indonesia.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Pastikan form sudah ada di halaman
+    document.addEventListener('DOMContentLoaded', () => {
+        const orderForm = document.getElementById('order-form');
+        
+        if(orderForm) {
+            orderForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Ambil data form dengan cara yang lebih aman
+                const name = orderForm.querySelector('#name').value;
+                const menu = orderForm.querySelector('#menu').value;
+                const quantity = orderForm.querySelector('#quantity').value;
+    
+                const orderData = {
+                    name: name,
+                    menu: menu,
+                    quantity: quantity
+                };
+    
+                console.log('Mengirim order:', orderData); // Debug log
+    
+                // Kirim ke server
+                fetch('/order', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(orderData)
+                })
+                .then(res => {
+                    console.log('Status response:', res.status); // Debug log
+                    return res.json();
+                })
+                .then(data => {
+                    console.log('Data response:', data); // Debug log
+                    if(data.success) {
+                        alert('Order berhasil!');
+                        orderForm.reset();
+                    } else {
+                        alert(data.message || 'Gagal membuat order');
+                    }
+                })
+                .catch(err => {
+                    console.error('Error:', err); // Debug log
+                    alert('Terjadi kesalahan saat membuat order');
+                });
+            });
+        } else {
+            console.error('Form tidak ditemukan');
+        }
+    });
+    </script>
+<script src="app.js"></script>
+</body>
+</html>
